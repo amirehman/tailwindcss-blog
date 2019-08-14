@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>TailwindCSS Blog by getidea.net</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/stylesheets/screen.css">
+</head>
+
+<body class="bg-white">
+
+    <div class="main-wrapper">
+
+        <nav class="flex items-center justify-between flex-wrap lg:pl-0 p-6  max-w-6xl mx-auto border-b border-gray-300">
+            <div class="flex items mr-6">
+                <a href="/" class="font-semibold text-xl tracking-tight">Blog / Site Name</a>
+            </div>
+            <div class="block lg:hidden">
+                <button class="flex items-center px-3 py-2 border rounded  hover:border-white" id="burgurBtn">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                    </button>
+            </div>
+            <div class="w-full lg:block flex-grow lg:flex lg:items-center lg:w-auto hidden" id="MainMenu">
+                <div class="text-normal font-normal text-gray-800 lg:flex-grow lg:ml-4 ml-0">
+                    <a href="category-page.html" class="hover:text-black px-2 block mt-4 lg:inline-block lg:mt-0  mr-4">
+                                Papular
+                            </a>
+                    <a href="category-page.html" class="hover:text-black px-2 block mt-4 lg:inline-block lg:mt-0  mr-4">
+                                New
+                            </a>
+                    <a href="categories.html" class="hover:text-black px-2 block mt-4 lg:inline-block lg:mt-0  mr-4">
+                                Categories
+                            </a>
+                    <a href="write.html" class="hover:text-black px-2 block mt-4 lg:inline-block lg:mt-0  mr-4">
+                                Write
+                            </a>
+                    <a href="#" class="hover:text-black px-2 block mt-4 lg:inline-block lg:mt-0 ">
+                                More
+                            </a>
+                </div>
+                <div>
+                    <form class="w-full max-w-sm lg:mt-0 mt-4">
+                        <div class="flex items-center border border-gray-300 rounded overflow-hidden">
+                            <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="search" placeholder="Search" aria-label="Search">
+                            <button class="flex-shrink-0 bg-gray-500 hover:bg-gray-700 border-gray-500 hover:border-gray-700 text-sm border-4 text-white py-1 px-2" type="button">
+                            Search
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar -->
+
+
+        <section id="single-post-wrapper" class="my-8">
+
+            <div class="max-w-6xl mx-auto">
+
+                <div class="single-post-info md:my-5 md:w-3/4 w-full mx-auto">
+                    <h1 class="text-4xl font-bold text-gray-900 md:mx-0 mx-6">In 21st-century Korea, shamanism is not only thriving — but evolving</h1>
+
+                    <div class="author-info flex mt-3 md:mx-0 md:mb-0 mx-6 mb-6">
+                        <div class="w-auto">
+                            <div class="w-10 h-10 rounded-full overflow-hidden">
+                                <img src="https://picsum.photos/id/1027/2848/4272" class="object-cover w-10 h-10" alt="author pic">
+                            </div>
+                        </div>
+                        <div class="w-full text-xs pl-4 pt-px">
+                            <div class="text-gray-600"> <a href="author.html" class="text-black hover:underline">Neelam Munir</a> in <a href="category-page.html" class="text-black hover:underline"> Culture </a> </div>
+                            <div class="text-gray-600"> <span>13 Aug, 2019</span> - <span> 6 min read </span> </div>
+                        </div>
+                    </div>
+                    <!-- author-info -->
+
+                </div>
+
+                <div class="single-post-cover md:rounded overflow-hidden shadow-2xl mb-12">
+                    <img style="height: 700px" src="https://picsum.photos/1100/700" class="object-cover w-full" alt="single post cover">
+                </div>
+
+                <div class="single-post-detail flex flex-wrap mt-3">
+                    <div class="md:w-32 w-full ml-auto p-3 text-center">
+                        <h3 class="text-sm font-light uppercase mb-4">
+                            <span class="md:block inline">Share</span>
+                            <span class="md:block inline">With</span>
+                            <span class="md:block inline">Your</span>
+                            <span class="md:block inline">Friends</span>
+                        </h3>
+                        <ul class="flex flex-wrap items-center justify-center">
+                            <li class="block inline-block md:w-full w-auto md:mx-0 mx-1 flex items-center justify-center"><a href="#" class="mb-2 border border-gray-300 text-2xl text-gray-800 transition-3 rounded hover:shadow-xl flex items-center justify-center inline-block w-12 h-12"><i class="fa fa-facebook"></i></a></li>
+                            <li class="block inline-block md:w-full w-auto md:mx-0 mx-1 flex items-center justify-center"><a href="#" class="mb-2 border border-gray-300 text-2xl text-gray-800 transition-3 rounded hover:shadow-xl flex items-center justify-center inline-block w-12 h-12"><i class="fa fa-twitter"></i></a></li>
+                            <li class="block inline-block md:w-full w-auto md:mx-0 mx-1 flex items-center justify-center"><a href="#" class="mb-2 border border-gray-300 text-2xl text-gray-800 transition-3 rounded hover:shadow-xl flex items-center justify-center inline-block w-12 h-12"><i class="fa fa-instagram"></i></a></li>
+                            <li class="block inline-block md:w-full w-auto md:mx-0 mx-1 flex items-center justify-center"><a href="#" class="mb-2 border border-gray-300 text-2xl text-gray-800 transition-3 rounded hover:shadow-xl flex items-center justify-center inline-block w-12 h-12"><i class="fa fa-whatsapp"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="md:w-2/3 w-full mr-auto md:p-3 p-6">
+
+                        <div class="sub-heading text-xl font-semibold leading-normal">
+                            <p>Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard roadrunner flapped lynx far that and jeepers giggled far and far bald that roadrunner python inside held shrewdly the manatee.</p>
+                        </div>
+                        <div class="single-post-content mt-5 text-xl leading-normal text-gray-900">
+                            <p>
+                                Gosh jaguar ostrich quail one excited dear hello and bound[1] and the and bland moral misheard roadrunner flapped lynx far that and jeepers giggled far and far bald that roadrunner python inside held shrewdly the manatee.
+                            </p>
+                            <p>Thanks sniffed in hello after in foolhardy and some far purposefully much one at the much conjointly leapt skimpily that quail sheep some goodness nightingale the instead exited expedient up far ouch mellifluous altruistic
+                                and and lighted more instead much when ferret but the.</p>
+                            <p>Yet more some certainly yet alas abandonedly whispered intriguingly[2] well extensive one howled talkative admonishingly below a rethought overlaid dear gosh activated less however hawk yet oh scratched ostrich some outside
+                                crud irrespective lightheartedly and much far amenably that the elephant since when.</p>
+                            <h1>The Guitar Legends</h1>
+                            <p>
+                                Gosh jaguar ostrich quail one excited dear hello and bound[1] and the and bland moral misheard roadrunner flapped lynx far that and jeepers giggled far and far bald that roadrunner python inside held shrewdly the manatee.
+                            </p>
+                            <p>Thanks sniffed in hello after in foolhardy and some far purposefully much one at the much conjointly leapt skimpily that quail sheep some goodness nightingale the instead exited expedient up far ouch mellifluous altruistic
+                                and and lighted more instead much when ferret but the.</p>
+                            <p>Yet more some certainly yet alas abandonedly whispered intriguingly[2] well extensive one howled talkative admonishingly below a rethought overlaid dear gosh activated less however hawk yet oh scratched ostrich some outside
+                                crud irrespective lightheartedly and much far amenably that the elephant since when.</p>
+                            <img src="https://picsum.photos/700/400" alt="single post cover">
+                            <p>Thanks sniffed in hello after in foolhardy and some far purposefully much one at the much conjointly leapt skimpily that quail sheep some goodness nightingale the instead exited expedient up far ouch mellifluous altruistic
+                                and and lighted more instead much when ferret but the.</p>
+                            <p>Yet more some certainly yet alas abandonedly whispered intriguingly[2] well extensive one howled talkative admonishingly below a rethought overlaid dear gosh activated less however hawk yet oh scratched ostrich some outside
+                                crud irrespective lightheartedly and much far amenably that the elephant since when.</p>
+                        </div>
+
+                        <div class="single-post-tags mt-12">
+                            <ul>
+                                <li class="inline-block"> <a href="category-page.html" class="inline-block border border-gray-300 px-3 transition-3 rounded hover:border-gray-500">fashion</a> </li>
+                                <li class="inline-block"> <a href="category-page.html" class="inline-block border border-gray-300 px-3 transition-3 rounded hover:border-gray-500">news</a> </li>
+                                <li class="inline-block"> <a href="category-page.html" class="inline-block border border-gray-300 px-3 transition-3 rounded hover:border-gray-500">lifestyle</a> </li>
+                                <li class="inline-block"> <a href="category-page.html" class="inline-block border border-gray-300 px-3 transition-3 rounded hover:border-gray-500">work</a> </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <section id="related-items" class="lg:my-5 m-6">
+
+            <div class="max-w-6xl mx-auto border-t border-gray-300">
+                <h3 class="text-2xl font-semibold p-5 pl-0">Related Posts</h3>
+            </div>
+
+            <div class="max-w-6xl mx-auto related-items-warpper">
+                <div class="flex flex-wrap">
+
+                    <div class="lg:w-1/4 md:w-1/2 w-full">
+                        <div class="flex-item border border-gray-300 rounded hover:shadow-2xl transition-3 m-2 lg:ml-0">
+                            <img src="https://picsum.photos/401/251" class="object-cover w-full block" style="height: 180px" alt="related post image">
+                            <h2 class="text-gray-800 font-semibold text-lg leading-tight p-3 pb-0"> <a href="single-post.html"> Is ‘Interactive Storytelling’ the Future of Media? </a></h2>
+                            <div class="w-full text-xs p-3 pt-2">
+                                <div class="text-gray-600"> <a href="author.html" class="text-black hover:underline">Neelam Munir</a> in <a href="category-page.html" class="text-black hover:underline"> Culture </a> </div>
+                                <div class="text-gray-600"> <span>13 Aug, 2019</span> - <span> 6 min read </span> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- w-1/4 -->
+
+                    <div class="lg:w-1/4 md:w-1/2 w-full">
+                        <div class="flex-item border border-gray-300 rounded hover:shadow-2xl transition-3 m-2">
+                            <img src="https://picsum.photos/402/252" class="object-cover w-full block" style="height: 180px" alt="related post image">
+                            <h2 class="text-gray-800 font-semibold text-lg leading-tight p-3 pb-0"> <a href="single-post.html"> Is ‘Interactive Storytelling’ the Future of Media? </a></h2>
+                            <div class="w-full text-xs p-3 pt-2">
+                                <div class="text-gray-600"> <a href="author.html" class="text-black hover:underline">Neelam Munir</a> in <a href="category-page.html" class="text-black hover:underline"> Culture </a> </div>
+                                <div class="text-gray-600"> <span>13 Aug, 2019</span> - <span> 6 min read </span> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- w-1/4 -->
+
+                    <div class="lg:w-1/4 md:w-1/2 w-full">
+                        <div class="flex-item border border-gray-300 rounded hover:shadow-2xl transition-3 m-2">
+                            <img src="https://picsum.photos/403/253" class="object-cover w-full block" style="height: 180px" alt="related post image">
+                            <h2 class="text-gray-800 font-semibold text-lg leading-tight p-3 pb-0"> <a href="single-post.html"> Is ‘Interactive Storytelling’ the Future of Media? </a></h2>
+                            <div class="w-full text-xs p-3 pt-2">
+                                <div class="text-gray-600"> <a href="author.html" class="text-black hover:underline">Neelam Munir</a> in <a href="category-page.html" class="text-black hover:underline"> Culture </a> </div>
+                                <div class="text-gray-600"> <span>13 Aug, 2019</span> - <span> 6 min read </span> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- w-1/4 -->
+
+                    <div class="lg:w-1/4 md:w-1/2 w-full">
+                        <div class="flex-item border border-gray-300 rounded hover:shadow-2xl transition-3 m-2 mr-0">
+                            <img src="https://picsum.photos/400/250" class="object-cover w-full block" style="height: 180px" alt="related post image">
+                            <h2 class="text-gray-800 font-semibold text-lg leading-tight p-3 pb-0"> <a href="single-post.html"> Is ‘Interactive Storytelling’ the Future of Media? </a></h2>
+                            <div class="w-full text-xs p-3 pt-2">
+                                <div class="text-gray-600"> <a href="author.html" class="text-black hover:underline">Neelam Munir</a> in <a href="category-page.html" class="text-black hover:underline"> Culture </a> </div>
+                                <div class="text-gray-600"> <span>13 Aug, 2019</span> - <span> 6 min read </span> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- w-1/4 -->
+
+                    <div class="lg:w-1/4 md:w-1/2 w-full">
+                        <div class="flex-item border border-gray-300 rounded hover:shadow-2xl transition-3 m-2 lg:ml-0">
+                            <img src="https://picsum.photos/404/254" class="object-cover w-full block" style="height: 180px" alt="related post image">
+                            <h2 class="text-gray-800 font-semibold text-lg leading-tight p-3 pb-0"> <a href="single-post.html"> Is ‘Interactive Storytelling’ the Future of Media? </a></h2>
+                            <div class="w-full text-xs p-3 pt-2">
+                                <div class="text-gray-600"> <a href="author.html" class="text-black hover:underline">Neelam Munir</a> in <a href="category-page.html" class="text-black hover:underline"> Culture </a> </div>
+                                <div class="text-gray-600"> <span>13 Aug, 2019</span> - <span> 6 min read </span> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- w-1/4 -->
+
+                    <div class="lg:w-1/4 md:w-1/2 w-full">
+                        <div class="flex-item border border-gray-300 rounded hover:shadow-2xl transition-3 m-2">
+                            <img src="https://picsum.photos/405/255" class="object-cover w-full block" style="height: 180px" alt="related post image">
+                            <h2 class="text-gray-800 font-semibold text-lg leading-tight p-3 pb-0"> <a href="single-post.html"> Is ‘Interactive Storytelling’ the Future of Media? </a></h2>
+                            <div class="w-full text-xs p-3 pt-2">
+                                <div class="text-gray-600"> <a href="author.html" class="text-black hover:underline">Neelam Munir</a> in <a href="category-page.html" class="text-black hover:underline"> Culture </a> </div>
+                                <div class="text-gray-600"> <span>13 Aug, 2019</span> - <span> 6 min read </span> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- w-1/4 -->
+
+                    <div class="lg:w-1/4 md:w-1/2 w-full">
+                        <div class="flex-item border border-gray-300 rounded hover:shadow-2xl transition-3 m-2">
+                            <img src="https://picsum.photos/406/256" class="object-cover w-full block" style="height: 180px" alt="related post image">
+                            <h2 class="text-gray-800 font-semibold text-lg leading-tight p-3 pb-0"> <a href="single-post.html"> Is ‘Interactive Storytelling’ the Future of Media? </a></h2>
+                            <div class="w-full text-xs p-3 pt-2">
+                                <div class="text-gray-600"> <a href="author.html" class="text-black hover:underline">Neelam Munir</a> in <a href="category-page.html" class="text-black hover:underline"> Culture </a> </div>
+                                <div class="text-gray-600"> <span>13 Aug, 2019</span> - <span> 6 min read </span> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- w-1/4 -->
+
+                    <div class="lg:w-1/4 md:w-1/2 w-full">
+                        <div class="flex-item border border-gray-300 rounded hover:shadow-2xl transition-3 m-2 mr-0">
+                            <img src="https://picsum.photos/407/257" class="object-cover w-full block" style="height: 180px" alt="related post image">
+                            <h2 class="text-gray-800 font-semibold text-lg leading-tight p-3 pb-0"> <a href="single-post.html"> Is ‘Interactive Storytelling’ the Future of Media? </a></h2>
+                            <div class="w-full text-xs p-3 pt-2">
+                                <div class="text-gray-600"> <a href="author.html" class="text-black hover:underline">Neelam Munir</a> in <a href="category-page.html" class="text-black hover:underline"> Culture </a> </div>
+                                <div class="text-gray-600"> <span>13 Aug, 2019</span> - <span> 6 min read </span> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- w-1/4 -->
+
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+        <footer id="main-footer" class="">
+            <div class="max-w-6xl mx-auto clearfix border-t border-gray-200 py-6">
+                <div class="flex flex-wrap">
+                    <div class="lg:w-1/3 w-full lg:m-0 m-6 mb-0 text-center">
+                        <p class="text-sm text-gray-700">Copyright 2019 Merinda inc. Designed by <a href="https://getidea.net">getidea.net</a> </p>
+                    </div>
+                    <div class="lg:w-1/3 w-full lg:m-0 m-6 mb-0">
+                        <ul class="text-center">
+                            <li class="inline-block">
+                                <a href="#" class="inline-block text-lg px-2 text-gray-700 hover:text-black"> <i class="fa fa-facebook"></i> </a>
+                            </li>
+                            <li class="inline-block">
+                                <a href="#" class="inline-block text-lg px-2 text-gray-700 hover:text-black"> <i class="fa fa-twitter"></i> </a>
+                            </li>
+                            <li class="inline-block">
+                                <a href="#" class="inline-block text-lg px-2 text-gray-700 hover:text-black"> <i class="fa fa-linkedin"></i> </a>
+                            </li>
+                            <li class="inline-block">
+                                <a href="#" class="inline-block text-lg px-2 text-gray-700 hover:text-black"> <i class="fa fa-snapchat"></i> </a>
+                            </li>
+                            <li class="inline-block">
+                                <a href="#" class="inline-block text-lg px-2 text-gray-700 hover:text-black"> <i class="fa fa-instagram"></i> </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="lg:w-1/3 w-full lg:m-0 m-6 mb-0">
+                        <ul class="text-center">
+                            <li class="inline-block"> <a class="text-gray-600 hover:text-black hover:underline text-sm p-3" href="blank-page.html">Privacy</a> </li>
+                            <li class="inline-block"> <a class="text-gray-600 hover:text-black hover:underline text-sm p-3" href="blank-page.html">Advertisement</a> </li>
+                            <li class="inline-block"> <a class="text-gray-600 hover:text-black hover:underline text-sm p-3" href="contact.html">Contact Us</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- section - latest -->
+
+    </div>
+    <!-- wrapper -->
+
+</body>
+
+</html>

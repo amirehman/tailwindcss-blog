@@ -1,0 +1,177 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 8, ../sass/screen.scss */
+.overlay-100 {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/* line 11, ../sass/screen.scss */
+.overlay-100.on-hover-overlay-hide:hover {
+  background: none;
+}
+/* line 13, ../sass/screen.scss */
+.overlay-100.on-hover-overlay-hide:hover * {
+  visibility: hidden;
+}
+
+/* line 20, ../sass/screen.scss */
+.overlay-200 {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* line 23, ../sass/screen.scss */
+.overlay-200.on-hover-overlay-hide:hover {
+  background: none;
+}
+/* line 25, ../sass/screen.scss */
+.overlay-200.on-hover-overlay-hide:hover * {
+  visibility: hidden;
+}
+
+/* line 32, ../sass/screen.scss */
+.overlay-300 {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+/* line 35, ../sass/screen.scss */
+.overlay-300.on-hover-overlay-hide:hover {
+  background: none;
+}
+/* line 37, ../sass/screen.scss */
+.overlay-300.on-hover-overlay-hide:hover * {
+  visibility: hidden;
+}
+
+/* line 44, ../sass/screen.scss */
+.overlay-400 {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+/* line 47, ../sass/screen.scss */
+.overlay-400.on-hover-overlay-hide:hover {
+  background: none;
+}
+/* line 49, ../sass/screen.scss */
+.overlay-400.on-hover-overlay-hide:hover * {
+  visibility: hidden;
+}
+
+/* line 56, ../sass/screen.scss */
+.overlay-500 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* line 59, ../sass/screen.scss */
+.overlay-500.on-hover-overlay-hide:hover {
+  background: none;
+}
+/* line 61, ../sass/screen.scss */
+.overlay-500.on-hover-overlay-hide:hover * {
+  visibility: hidden;
+}
+
+/* line 68, ../sass/screen.scss */
+.overlay-600 {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+/* line 71, ../sass/screen.scss */
+.overlay-600.on-hover-overlay-hide:hover {
+  background: none;
+}
+/* line 73, ../sass/screen.scss */
+.overlay-600.on-hover-overlay-hide:hover * {
+  visibility: hidden;
+}
+
+/* line 80, ../sass/screen.scss */
+.overlay-700 {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+/* line 83, ../sass/screen.scss */
+.overlay-700.on-hover-overlay-hide:hover {
+  background: none;
+}
+/* line 85, ../sass/screen.scss */
+.overlay-700.on-hover-overlay-hide:hover * {
+  visibility: hidden;
+}
+
+/* line 92, ../sass/screen.scss */
+.overlay-800 {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* line 95, ../sass/screen.scss */
+.overlay-800.on-hover-overlay-hide:hover {
+  background: none;
+}
+/* line 97, ../sass/screen.scss */
+.overlay-800.on-hover-overlay-hide:hover * {
+  visibility: hidden;
+}
+
+/* line 104, ../sass/screen.scss */
+.overlay-900 {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+/* line 107, ../sass/screen.scss */
+.overlay-900.on-hover-overlay-hide:hover {
+  background: none;
+}
+/* line 109, ../sass/screen.scss */
+.overlay-900.on-hover-overlay-hide:hover * {
+  visibility: hidden;
+}
+
+/* line 116, ../sass/screen.scss */
+.transition-3 {
+  transition: 0.3s;
+}
+
+/* line 122, ../sass/screen.scss */
+.category-card:hover .title {
+  left: 10px;
+}
+/* line 127, ../sass/screen.scss */
+.category-card .title {
+  transition: 0.3s;
+  top: 107%;
+  left: 0px;
+}
+
+/* line 135, ../sass/screen.scss */
+.single-post-content p {
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+/* line 139, ../sass/screen.scss */
+.single-post-content h1,
+.single-post-content h2,
+.single-post-content h3,
+.single-post-content h4,
+.single-post-content h5 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+/* line 147, ../sass/screen.scss */
+.single-post-content h1 {
+  font-size: 32px;
+}
+/* line 150, ../sass/screen.scss */
+.single-post-content h2 {
+  font-size: 26px;
+}
+/* line 153, ../sass/screen.scss */
+.single-post-content h3 {
+  font-size: 22px;
+}
+/* line 156, ../sass/screen.scss */
+.single-post-content h4 {
+  font-size: 18px;
+}
+/* line 159, ../sass/screen.scss */
+.single-post-content h5 {
+  font-size: 16px;
+}
+/* line 162, ../sass/screen.scss */
+.single-post-content img {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}

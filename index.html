@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>TailwindCSS Blog by getidea.net</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/stylesheets/screen.css">
+</head>
+
+<body class="bg-white">
+
+    <div class="main-wrapper">
+
+        <nav class="flex items-center justify-between flex-wrap lg:pl-0 p-6  max-w-6xl mx-auto border-b border-gray-300">
+            <div class="flex items mr-6">
+                <a href="/" class="font-semibold text-xl tracking-tight">Blog / Site Name</a>
+            </div>
+            <div class="block lg:hidden">
+                <button class="flex items-center px-3 py-2 border rounded  hover:border-white focus:outline-none" id="burgurBtn">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                </button>
+            </div>
+            <div class="w-full lg:block flex-grow lg:flex lg:items-center lg:w-auto hidden" id="MainMenu">
+                <div class="text-normal font-normal text-gray-800 lg:flex-grow lg:ml-4 ml-0">
+                    <a href="category-page.html" class="hover:text-black px-2 block mt-4 lg:inline-block lg:mt-0  mr-4">
+                                Papular
+                            </a>
+                    <a href="category-page.html" class="hover:text-black px-2 block mt-4 lg:inline-block lg:mt-0  mr-4">
+                                New
+                            </a>
+                    <a href="categories.html" class="hover:text-black px-2 block mt-4 lg:inline-block lg:mt-0  mr-4">
+                                Categories
+                            </a>
+                    <a href="write.html" class="hover:text-black px-2 block mt-4 lg:inline-block lg:mt-0  mr-4">
+                                Write
+                            </a>
+                    <a href="#" class="hover:text-black px-2 block mt-4 lg:inline-block lg:mt-0 ">
+                                More
+                            </a>
+                </div>
+                <div>
+                    <form class="w-full max-w-sm lg:mt-0 mt-4">
+                        <div class="flex items-center border border-gray-300 rounded overflow-hidden">
+                            <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="search" placeholder="Search" aria-label="Search">
+                            <button class="flex-shrink-0 bg-gray-500 hover:bg-gray-700 border-gray-500 hover:border-gray-700 text-sm border-4 text-white py-1 px-2" type="button">
+                            Search
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar -->
+
+        <section id="featured" class="my-8">
+
+            <div class="max-w-6xl mx-auto">
+                <div class="flex flex-wrap">
+                    <div class="lg:w-2/3 w-full">
+                        <div class="lg:m-0 m-3 first-featuredbg-cover relative bg-cover overflow-hidden rounded shadow-lg" style="background-image: url(https://picsum.photos/780/420); height: 420px;">
+                            <div class="transition-3 overlay-500 lg:p-10 p-3 w-full h-full text-white">
+
+                                <div class="read-full-store absolute p-5 right-0 bottom-0">
+                                    <a href="single-post.html" class="font-light border-b pb-1 border-gray-300 hover:border-gray-100 hover:text-gray-100">Read Full Story</a>
+                                </div>
+
+                                <div class="info text-sm">
+                                    By <span class="font-semibold">Amir Rehman</span> On <span class="font-semibold">24 August, 2019</span>
+                                </div>
+                                <h1 class="leading-snug text-3xl font-bold my-4">Optimize your web desing process with rapid prototyping</h1>
+                                <p class="text-normal leading-normal font-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia consequuntur natus laudantium saepe ducimus cum non at aperiam incidunt provident minus fuga voluptatibus aspernatur eos quam, aliquam ullam neque distinctio?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/3 w-full">
+                        <div class="feature-list p-3 pt-0 lg:px-8">
+                            <h2 class="text-2xl font-semibold">Featured</h2>
+                            <div class="list">
+
+                                <div class="item my-3 border leading-normal border-gray-300 p-3 rounded">
+                                    <div class="info text-sm font-semibold mb-1"><a href="category-page.html" class="no-underline uppercase hover:underline text-gray-700 text-xs">Sport</a></div>
+                                    <h2 class="text-lg font-semibold"><a href=""> Optimize your web desing process with rapid prototyping </a></h2>
+                                </div>
+
+                                <div class="item my-3 border leading-normal border-gray-300 p-3 rounded">
+                                    <div class="info text-sm font-semibold mb-1"><a href="category-page.html" class="no-underline uppercase hover:underline text-gray-700 text-xs">Culture</a></div>
+                                    <h2 class="text-lg font-semibold"><a href=""> Optimize your web desing process with rapid prototyping </a></h2>
+                                </div>
+
+                                <div class="item my-3 border leading-normal border-gray-300 p-3 rounded">
+                                    <div class="info text-sm font-semibold mb-1"><a href="category-page.html" class="no-underline uppercase hover:underline text-gray-700 text-xs">SEO</a></div>
+                                    <h2 class="text-lg font-semibold"><a href=""> Optimize your web desing process with rapid prototyping </a></h2>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- section - featured -->
+
+
+        <section id="categories" class="lg:my-12 m-6">
+
+            <div class="max-w-6xl mx-auto">
+
+                <header class="categories-header mb-8 flex">
+                    <h1 class="text-2xl font-semibold w-1/2">Top Categories</h1>
+                    <a href="categories.html" class="text-lg font-semibold w-1/2 mt-1 text-right hover:underline">All Categories</a>
+                </header>
+
+                <div class="flex flex-wrap text-white categories text-gray-800">
+
+                    <div class="lg:w-1/6 md:w-1/2 w-full lg:mb-0 mb-16">
+                        <div onclick="window.location='category-page.html'" class="cursor-pointer category-card hover:shadow-2xl transition-3 relative h-64 mx-1 inner rounded shadow-lg p-3 bg-cover" style="background-image: url(https://picsum.photos/190/390);">
+                            <h3 class="title text-gray-900 font-semibold text-lg absolute">Freelance</h3>
+                        </div>
+                    </div>
+
+                    <div class="lg:w-1/6 md:w-1/2 w-full lg:mb-0 mb-16">
+                        <div onclick="window.location='category-page.html'" class="cursor-pointer category-card hover:shadow-2xl transition-3 relative h-64 mx-1 inner rounded shadow-lg p-3 bg-cover" style="background-image: url(https://picsum.photos/191/391);">
+                            <h3 class="title text-gray-900 font-semibold text-lg absolute">How To</h3>
+                        </div>
+                    </div>
+
+                    <div class="lg:w-1/6 md:w-1/2 w-full lg:mb-0 mb-16">
+                        <div onclick="window.location='category-page.html'" class="cursor-pointer category-card hover:shadow-2xl transition-3 relative h-64 mx-1 inner rounded shadow-lg p-3 bg-cover" style="background-image: url(https://picsum.photos/192/392);">
+                            <h3 class="title text-gray-900 font-semibold text-lg absolute">SEO</h3>
+                        </div>
+                    </div>
+
+                    <div class="lg:w-1/6 md:w-1/2 w-full lg:mb-0 mb-16">
+                        <div onclick="window.location='category-page.html'" class="cursor-pointer category-card hover:shadow-2xl transition-3 relative h-64 mx-1 inner rounded shadow-lg p-3 bg-cover" style="background-image: url(https://picsum.photos/193/393);">
+                            <h3 class="title text-gray-900 font-semibold text-lg absolute">UI design</h3>
+                        </div>
+                    </div>
+
+                    <div class="lg:w-1/6 md:w-1/2 w-full lg:mb-0 mb-16">
+                        <div onclick="window.location='category-page.html'" class="cursor-pointer category-card hover:shadow-2xl transition-3 relative h-64 mx-1 inner rounded shadow-lg p-3 bg-cover" style="background-image: url(https://picsum.photos/194/394);">
+                            <h3 class="title text-gray-900 font-semibold text-lg absolute">UX desing</h3>
+                        </div>
+                    </div>
+
+                    <div class="lg:w-1/6 md:w-1/2 w-full lg:mb-0 mb-16">
+                        <div onclick="window.location='category-page.html'" class="cursor-pointer category-card hover:shadow-2xl transition-3 relative h-64 mx-1 inner rounded shadow-lg p-3 bg-cover" style="background-image: url(https://picsum.photos/195/395);">
+                            <h3 class="title text-gray-900 font-semibold text-lg absolute">More</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- section - categories -->
+
+
+        <section id="latest" class="lg:my-12 lg:mt-24 m-6">
+
+            <div class="max-w-6xl mx-auto">
+
+                <div class="flex flex-wrap categories">
+
+                    <div class="lg:w-2/3 w-full">
+
+                        <div class="most-recent-wrapper">
+
+                            <div class="flex flex-wrap text-gray-900 mb-6">
+                                <h3 class="text-2xl font-semibold">Most Recent</h3>
+                            </div>
+
+                            <div class="flex flex-wrap most-recent-item pr-5 mb-10">
+
+                                <div class="sm:w-2/3 w-full">
+                                    <div class="most-recent-item-info">
+                                        <div class="catg">
+                                            <span class="text-xs text-gray-500 uppercase">Editor's Pick</span>
+                                        </div>
+                                        <h2 class="text-normal font-semibold text-gray-900 leading-tight mb-3 mt-1"><a href="single-post.html">Home Internet Is Becoming a Luxury for the Wealthy</a></h2>
+                                        <p class="text-gray-600 text-sm">And black on meretriciously regardless well fearless irksomely as about hideous wistful bat less oh much and occasional useful rat darn jeepers far.</p>
+                                        <div class="inner-info text-sm text-gray-700 mt-1">
+                                            <span class="item-created-on">14 Jan, 2019</span> -
+                                            <span class="item-read-time">5 Min Read</span>
+                                        </div>
+                                    </div>
+                                    <!-- most-recent-item-info -->
+                                </div>
+
+                                <div class="sm:w-1/3 w-full sm:h-auto h-64 sm:mt-0 mt-3 bg-gray-100 bg-cover bg-cover rounded overflow-hidden" style="background-image: url(https://picsum.photos/250/150);"></div>
+
+                            </div>
+                            <!-- most-recent-item -->
+                            <div class="flex flex-wrap most-recent-item pr-5 mb-10">
+
+                                <div class="sm:w-2/3 w-full">
+                                    <div class="most-recent-item-info">
+                                        <div class="catg">
+                                            <span class="text-xs text-gray-500 uppercase">BASED ON YOUR READING HISTORY</span>
+                                        </div>
+                                        <h2 class="text-normal font-semibold text-gray-900 leading-tight mb-3 mt-1"><a href="single-post.html">Home Internet Is Becoming a Luxury for the Wealthy</a></h2>
+                                        <p class="text-gray-600 text-sm">And black on meretriciously regardless well fearless irksomely as about hideous wistful bat less oh much and occasional useful rat darn jeepers far.</p>
+                                        <div class="inner-info text-sm text-gray-700 mt-1">
+                                            <span class="item-created-on">14 Jan, 2019</span> -
+                                            <span class="item-read-time">5 Min Read</span>
+                                        </div>
+                                    </div>
+                                    <!-- most-recent-item-info -->
+                                </div>
+
+                                <div class="sm:w-1/3 w-full sm:h-auto h-64 sm:mt-0 mt-3 bg-gray-100 bg-cover bg-cover rounded overflow-hidden" style="background-image: url(https://picsum.photos/251/151);"></div>
+
+                            </div>
+                            <!-- most-recent-item -->
+                            <div class="flex flex-wrap most-recent-item pr-5 mb-10">
+
+                                <div class="sm:w-2/3 w-full">
+                                    <div class="most-recent-item-info">
+                                        <div class="catg text-xs text-gray-500">
+                                            <a href="category-page.html" class="uppercase hover:underline">culture</a>
+                                        </div>
+                                        <h2 class="text-normal font-semibold text-gray-900 leading-tight mb-3 mt-1"><a href="single-post.html">Home Internet Is Becoming a Luxury for the Wealthy</a></h2>
+                                        <p class="text-gray-600 text-sm">And black on meretriciously regardless well fearless irksomely as about hideous wistful bat less oh much and occasional useful rat darn jeepers far.</p>
+                                        <div class="inner-info text-sm text-gray-700 mt-1">
+                                            <span class="item-created-on">14 Jan, 2019</span> -
+                                            <span class="item-read-time">5 Min Read</span>
+                                        </div>
+                                    </div>
+                                    <!-- most-recent-item-info -->
+                                </div>
+
+                                <div class="sm:w-1/3 w-full sm:h-auto h-64 sm:mt-0 mt-3 bg-gray-100 bg-cover bg-cover rounded overflow-hidden" style="background-image: url(https://picsum.photos/252/152);"></div>
+
+                            </div>
+                            <!-- most-recent-item -->
+                            <div class="flex flex-wrap most-recent-item pr-5 mb-10">
+
+                                <div class="sm:w-2/3 w-full">
+                                    <div class="most-recent-item-info">
+                                        <div class="catg text-xs text-gray-500">
+                                            <a href="category-page.html" class="uppercase hover:underline">Sport</a>
+                                        </div>
+                                        <h2 class="text-normal font-semibold text-gray-900 leading-tight mb-3 mt-1"><a href="single-post.html">Home Internet Is Becoming a Luxury for the Wealthy</a></h2>
+                                        <p class="text-gray-600 text-sm">And black on meretriciously regardless well fearless irksomely as about hideous wistful bat less oh much and occasional useful rat darn jeepers far.</p>
+                                        <div class="inner-info text-sm text-gray-700 mt-1">
+                                            <span class="item-created-on">14 Jan, 2019</span> -
+                                            <span class="item-read-time">5 Min Read</span>
+                                        </div>
+                                    </div>
+                                    <!-- most-recent-item-info -->
+                                </div>
+
+                                <div class="sm:w-1/3 w-full sm:h-auto h-64 sm:mt-0 mt-3 bg-gray-100 bg-cover bg-cover rounded overflow-hidden" style="background-image: url(https://picsum.photos/253/153);"></div>
+
+                            </div>
+                            <!-- most-recent-item -->
+                            <div class="flex flex-wrap most-recent-item pr-5 mb-10">
+
+                                <div class="sm:w-2/3 w-full">
+                                    <div class="most-recent-item-info">
+                                        <div class="catg text-xs text-gray-500">
+                                            <a href="category-page.html" class="uppercase hover:underline">SEO</a>
+                                        </div>
+                                        <h2 class="text-normal font-semibold text-gray-900 leading-tight mb-3 mt-1"><a href="single-post.html">Home Internet Is Becoming a Luxury for the Wealthy</a></h2>
+                                        <p class="text-gray-600 text-sm">And black on meretriciously regardless well fearless irksomely as about hideous wistful bat less oh much and occasional useful rat darn jeepers far.</p>
+                                        <div class="inner-info text-sm text-gray-700 mt-1">
+                                            <span class="item-created-on">14 Jan, 2019</span> -
+                                            <span class="item-read-time">5 Min Read</span>
+                                        </div>
+                                    </div>
+                                    <!-- most-recent-item-info -->
+                                </div>
+
+                                <div class="sm:w-1/3 w-full sm:h-auto h-64 sm:mt-0 mt-3 bg-gray-100 bg-cover bg-cover rounded overflow-hidden" style="background-image: url(https://picsum.photos/254/154);"></div>
+
+                            </div>
+                            <!-- most-recent-item -->
+                            <div class="flex flex-wrap most-recent-item pr-5 mb-10">
+
+                                <div class="sm:w-2/3 w-full">
+                                    <div class="most-recent-item-info">
+                                        <div class="catg text-xs text-gray-500 uppercase">
+                                            <a href="" class="hover:underline">culture</a>,
+                                            <a href="category-page.html" class="uppercase hover:underline">Sport</a>
+                                        </div>
+                                        <h2 class="text-normal font-semibold text-gray-900 leading-tight mb-3 mt-1"><a href="single-post.html">Home Internet Is Becoming a Luxury for the Wealthy</a></h2>
+                                        <p class="text-gray-600 text-sm">And black on meretriciously regardless well fearless irksomely as about hideous wistful bat less oh much and occasional useful rat darn jeepers far.</p>
+                                        <div class="inner-info text-sm text-gray-700 mt-1">
+                                            <span class="item-created-on">14 Jan, 2019</span> -
+                                            <span class="item-read-time">5 Min Read</span>
+                                        </div>
+                                    </div>
+                                    <!-- most-recent-item-info -->
+                                </div>
+
+                                <div class="sm:w-1/3 w-full sm:h-auto h-64 sm:mt-0 mt-3 bg-gray-100 bg-cover bg-cover rounded overflow-hidden" style="background-image: url(https://picsum.photos/255/155);"></div>
+
+                            </div>
+                            <!-- most-recent-item -->
+                            <div class="flex flex-wrap most-recent-item pr-5 mb-10">
+
+                                <div class="sm:w-2/3 w-full">
+                                    <div class="most-recent-item-info">
+                                        <div class="catg text-xs text-gray-500">
+                                            <a href="category-page.html" class="uppercase hover:underline">Food</a>,
+                                            <a href="category-page.html" class="uppercase hover:underline">Dinner</a>
+                                        </div>
+                                        <h2 class="text-xl font-semibold text-gray-900 leading-tight mb-3 mt-1"><a href="single-post.html">Home Internet Is Becoming a Luxury for the Wealthy</a></h2>
+                                        <p class="text-gray-600 text-sm">And black on meretriciously regardless well fearless irksomely as about hideous wistful bat less oh much and occasional useful rat darn jeepers far.</p>
+                                        <div class="inner-info text-sm text-gray-700 mt-1">
+                                            <span class="item-created-on">14 Jan, 2019</span> -
+                                            <span class="item-read-time">5 Min Read</span>
+                                        </div>
+                                    </div>
+                                    <!-- most-recent-item-info -->
+                                </div>
+
+                                <div class="sm:w-1/3 w-full sm:h-auto h-64 sm:mt-0 mt-3 bg-gray-100 bg-cover bg-cover rounded overflow-hidden" style="background-image: url(https://picsum.photos/256/156);"></div>
+
+                            </div>
+                            <!-- most-recent-item -->
+                            <div class="flex flex-wrap most-recent-item pr-5 mb-10">
+
+                                <div class="sm:w-2/3 w-full">
+                                    <div class="most-recent-item-info">
+                                        <div class="catg text-xs text-gray-500">
+                                            <a href="category-page.html" class="uppercase hover:underline">SEO</a>
+                                        </div>
+                                        <h2 class="text-xl font-semibold text-gray-900 leading-tight mb-3 mt-1"><a href="single-post.html">Home Internet Is Becoming a Luxury for the Wealthy</a></h2>
+                                        <p class="text-gray-600 text-sm">And black on meretriciously regardless well fearless irksomely as about hideous wistful bat less oh much and occasional useful rat darn jeepers far.</p>
+                                        <div class="inner-info text-sm text-gray-700 mt-1">
+                                            <span class="item-created-on">14 Jan, 2019</span> -
+                                            <span class="item-read-time">5 Min Read</span>
+                                        </div>
+                                    </div>
+                                    <!-- most-recent-item-info -->
+                                </div>
+
+                                <div class="sm:w-1/3 w-full sm:h-auto h-64 sm:mt-0 mt-3 bg-gray-100 bg-cover bg-cover rounded overflow-hidden" style="background-image: url(https://picsum.photos/257/157);"></div>
+
+                            </div>
+                            <!-- most-recent-item -->
+                            <div class="flex flex-wrap most-recent-item pr-5 mb-10">
+
+                                <div class="sm:w-2/3 w-full">
+                                    <div class="most-recent-item-info">
+                                        <div class="catg text-xs text-gray-500">
+                                            <a href="category-page.html" class="uppercase hover:underline">UI design</a>
+                                        </div>
+                                        <h2 class="text-xl font-semibold text-gray-900 leading-tight mb-3 mt-1"><a href="single-post.html">Home Internet Is Becoming a Luxury for the Wealthy</a></h2>
+                                        <p class="text-gray-600 text-sm">And black on meretriciously regardless well fearless irksomely as about hideous wistful bat less oh much and occasional useful rat darn jeepers far.</p>
+                                        <div class="inner-info text-sm text-gray-700 mt-1">
+                                            <span class="item-created-on">14 Jan, 2019</span> -
+                                            <span class="item-read-time">5 Min Read</span>
+                                        </div>
+                                    </div>
+                                    <!-- most-recent-item-info -->
+                                </div>
+
+                                <div class="sm:w-1/3 w-full sm:h-auto h-64 sm:mt-0 mt-3 bg-gray-100 bg-cover bg-cover rounded overflow-hidden" style="background-image: url(https://picsum.photos/258/158);"></div>
+
+                            </div>
+                            <!-- most-recent-item -->
+
+                            <div class="most-recent-items-pagination pagination py-5">
+                                <ul>
+                                    <li class="inline-block">
+                                        <a class="border border-gray-300 px-3 py-1 rounded hover:bg-gray-800 hover:text-white" href="">Previews</a>
+                                    </li>
+                                    <li class="inline-block">
+                                        <a class="border border-gray-300 px-3 py-1 rounded hover:bg-gray-800 hover:text-white" href="">1</a>
+                                    </li>
+                                    <li class="inline-block">
+                                        <a class="border border-gray-300 px-3 py-1 rounded hover:bg-gray-800 hover:text-white" href="">2</a>
+                                    </li>
+                                    <li class="inline-block">
+                                        <a class="border border-gray-300 px-3 py-1 rounded hover:bg-gray-800 hover:text-white" href="">3</a>
+                                    </li>
+                                    <li class="inline-block">
+                                        <a class="border border-gray-300 px-3 py-1 rounded hover:bg-gray-800 hover:text-white" href="">4</a>
+                                    </li>
+                                    <li class="inline-block">
+                                        <a class="border border-gray-300 px-3 py-1 rounded hover:bg-gray-800 hover:text-white" href="">5</a>
+                                    </li>
+                                    <li class="inline-block">
+                                        <a class="border border-gray-300 px-3 py-1 rounded hover:bg-gray-800 hover:text-white" href="">Next</a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+
+                        </div>
+                        <!-- most-recent-wrapper -->
+
+                    </div>
+
+
+                    <div class="lg:w-1/3 w-full px-4">
+                        <div class="popular-wrapper">
+
+                            <div class="flex flex-wrap text-gray-900 mb-6">
+                                <h3 class="text-2xl font-semibold">Popular</h3>
+                            </div>
+
+                            <div class="popular-item mb-10">
+                                <div class="flex">
+                                    <div class="w-1/3 lg:text-center">
+                                        <span class="text-3xl font-light text-gray-300">01</span>
+                                    </div>
+                                    <div class="w-full text-gray-400">
+                                        <h3 class="text-normal font-semibold leading-tight text-gray-900"> <a href="single-post.html"> How Health Apps Let with Apple </a> </h3>
+                                        <div class="inner-info text-sm text-gray-700 mt-1">
+                                            <span class="item-created-on">14 Jan, 2019</span> -
+                                            <span class="item-read-time">5 Min Read</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- popular-item -->
+
+                            <div class="popular-item mb-10">
+                                <div class="flex">
+                                    <div class="w-1/3 lg:text-center">
+                                        <span class="text-3xl font-light text-gray-300">02</span>
+                                    </div>
+                                    <div class="w-full text-gray-400">
+                                        <h3 class="text-normal font-semibold leading-tight text-gray-900"> <a href="single-post.html"> How Health Apps Let with Apple </a> </h3>
+                                        <div class="inner-info text-sm text-gray-700 mt-1">
+                                            <span class="item-created-on">14 Jan, 2019</span> -
+                                            <span class="item-read-time">5 Min Read</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- popular-item -->
+
+                            <div class="popular-item mb-10">
+                                <div class="flex">
+                                    <div class="w-1/3 lg:text-center">
+                                        <span class="text-3xl font-light text-gray-300">03</span>
+                                    </div>
+                                    <div class="w-full text-gray-400">
+                                        <h3 class="text-normal font-semibold leading-tight text-gray-900"> <a href="single-post.html"> How Health Apps Let with Apple </a> </h3>
+                                        <div class="inner-info text-sm text-gray-700 mt-1">
+                                            <span class="item-created-on">14 Jan, 2019</span> -
+                                            <span class="item-read-time">5 Min Read</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- popular-item -->
+
+                            <div class="popular-item mb-10">
+                                <div class="flex">
+                                    <div class="w-1/3 lg:text-center">
+                                        <span class="text-3xl font-light text-gray-300">04</span>
+                                    </div>
+                                    <div class="w-full text-gray-400">
+                                        <h3 class="text-normal font-semibold leading-tight text-gray-900"> <a href="single-post.html"> How Health Apps Let with Apple </a> </h3>
+                                        <div class="inner-info text-sm text-gray-700 mt-1">
+                                            <span class="item-created-on">14 Jan, 2019</span> -
+                                            <span class="item-read-time">5 Min Read</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- popular-item -->
+
+                            <div class="popular-item mb-10">
+                                <div class="flex">
+                                    <div class="w-1/3 lg:text-center">
+                                        <span class="text-3xl font-light text-gray-300">05</span>
+                                    </div>
+                                    <div class="w-full text-gray-400">
+                                        <h3 class="text-normal font-semibold leading-tight text-gray-900"> <a href="single-post.html"> How Health Apps Let with Apple </a> </h3>
+                                        <div class="inner-info text-sm text-gray-700 mt-1">
+                                            <span class="item-created-on">14 Jan, 2019</span> -
+                                            <span class="item-read-time">5 Min Read</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- popular-item -->
+                        </div>
+                        <!-- popular-wrapper -->
+
+
+
+                        <div class="my-12 p-3">
+                            <img src="https://i.kym-cdn.com/photos/images/original/000/326/426/506.jpg" alt="ad space">
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- section - categories -->
+
+        <footer id="main-footer" class="">
+            <div class="max-w-6xl mx-auto clearfix border-t border-gray-200 py-6">
+                <div class="flex flex-wrap">
+                    <div class="lg:w-1/3 w-full lg:m-0 m-6 mb-0 text-center">
+                        <p class="text-sm text-gray-700">Copyright 2019 Merinda inc. Designed by <a href="https://getidea.net">getidea.net</a> </p>
+                    </div>
+                    <div class="lg:w-1/3 w-full lg:m-0 m-6 mb-0">
+                        <ul class="text-center">
+                            <li class="inline-block">
+                                <a href="#" class="inline-block text-lg px-2 text-gray-700 hover:text-black"> <i class="fa fa-facebook"></i> </a>
+                            </li>
+                            <li class="inline-block">
+                                <a href="#" class="inline-block text-lg px-2 text-gray-700 hover:text-black"> <i class="fa fa-twitter"></i> </a>
+                            </li>
+                            <li class="inline-block">
+                                <a href="#" class="inline-block text-lg px-2 text-gray-700 hover:text-black"> <i class="fa fa-linkedin"></i> </a>
+                            </li>
+                            <li class="inline-block">
+                                <a href="#" class="inline-block text-lg px-2 text-gray-700 hover:text-black"> <i class="fa fa-snapchat"></i> </a>
+                            </li>
+                            <li class="inline-block">
+                                <a href="#" class="inline-block text-lg px-2 text-gray-700 hover:text-black"> <i class="fa fa-instagram"></i> </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="lg:w-1/3 w-full lg:m-0 m-6 mb-0">
+                        <ul class="text-center">
+                            <li class="inline-block"> <a class="text-gray-600 hover:text-black hover:underline text-sm p-3" href="blank-page.html">Privacy</a> </li>
+                            <li class="inline-block"> <a class="text-gray-600 hover:text-black hover:underline text-sm p-3" href="blank-page.html">Advertisement</a> </li>
+                            <li class="inline-block"> <a class="text-gray-600 hover:text-black hover:underline text-sm p-3" href="contact.html">Contact Us</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- section - latest -->
+
+    </div>
+    <!-- wrapper -->
+
+    <script src="assets/js/lib/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+//@import "compass/reset";
+@import "queries";
+.overlay-100 {
+    background-color: rgba(0, 0, 0, 0.1);
+    &.on-hover-overlay-hide {
+        &:hover {
+            background: none;
+            * {
+                visibility: hidden;
+            }
+        }
+    }
+}
+
+.overlay-200 {
+    background-color: rgba(0, 0, 0, 0.2);
+    &.on-hover-overlay-hide {
+        &:hover {
+            background: none;
+            * {
+                visibility: hidden;
+            }
+        }
+    }
+}
+
+.overlay-300 {
+    background-color: rgba(0, 0, 0, 0.3);
+    &.on-hover-overlay-hide {
+        &:hover {
+            background: none;
+            * {
+                visibility: hidden;
+            }
+        }
+    }
+}
+
+.overlay-400 {
+    background-color: rgba(0, 0, 0, 0.4);
+    &.on-hover-overlay-hide {
+        &:hover {
+            background: none;
+            * {
+                visibility: hidden;
+            }
+        }
+    }
+}
+
+.overlay-500 {
+    background-color: rgba(0, 0, 0, 0.5);
+    &.on-hover-overlay-hide {
+        &:hover {
+            background: none;
+            * {
+                visibility: hidden;
+            }
+        }
+    }
+}
+
+.overlay-600 {
+    background-color: rgba(0, 0, 0, 0.6);
+    &.on-hover-overlay-hide {
+        &:hover {
+            background: none;
+            * {
+                visibility: hidden;
+            }
+        }
+    }
+}
+
+.overlay-700 {
+    background-color: rgba(0, 0, 0, 0.7);
+    &.on-hover-overlay-hide {
+        &:hover {
+            background: none;
+            * {
+                visibility: hidden;
+            }
+        }
+    }
+}
+
+.overlay-800 {
+    background-color: rgba(0, 0, 0, 0.8);
+    &.on-hover-overlay-hide {
+        &:hover {
+            background: none;
+            * {
+                visibility: hidden;
+            }
+        }
+    }
+}
+
+.overlay-900 {
+    background-color: rgba(0, 0, 0, 0.9);
+    &.on-hover-overlay-hide {
+        &:hover {
+            background: none;
+            * {
+                visibility: hidden;
+            }
+        }
+    }
+}
+
+.transition-3 {
+    transition: 0.3s;
+}
+
+.category-card {
+    &:hover {
+        .title {
+            // top: 105%;
+            left: 10px;
+        }
+    }
+    .title {
+        transition: 0.3s;
+        top: 107%;
+        left: 0px;
+    }
+}
+
+.single-post-content {
+    p {
+        margin-bottom: 15px;
+        font-weight: 300;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    img {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}

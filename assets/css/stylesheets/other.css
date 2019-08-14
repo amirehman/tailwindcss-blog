@@ -1,0 +1,107 @@
+/*
+Error: Undefined mixin 'valign'.
+        on line 8 of /Applications/AMPPS/www/getidea/assets/css/sass/other.scss, in `valign'
+        from line 8 of /Applications/AMPPS/www/getidea/assets/css/sass/other.scss
+
+3:         padding-top: 15px;
+4:         padding-bottom: 15px;
+5: 
+6:         .column {
+7:             &.search {
+8:                 @include valign;
+9: 
+10:                 .search {
+11:                     width: 100%;
+12: 
+13:                     input {
+
+Backtrace:
+/Applications/AMPPS/www/getidea/assets/css/sass/other.scss:8:in `valign'
+/Applications/AMPPS/www/getidea/assets/css/sass/other.scss:8
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/stack.rb:98:in `block in with_mixin'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/stack.rb:98:in `with_mixin'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/tree/root_node.rb:20:in `render'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/Users/Amjad/.rvm/gems/ruby-2.4.1/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'valign'.\A         on line 8 of /Applications/AMPPS/www/getidea/assets/css/sass/other.scss, in `valign'\A         from line 8 of /Applications/AMPPS/www/getidea/assets/css/sass/other.scss\A \A 3:         padding-top: 15px;\A 4:         padding-bottom: 15px;\A 5: \A 6:         .column {\A 7:             &.search {\A 8:                 @include valign;\A 9: \A 10:                 .search {\A 11:                     width: 100%;\A 12: \A 13:                     input {"; }
